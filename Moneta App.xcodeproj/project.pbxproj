@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52307603282A86380083D739 /* Moneta_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307602282A86380083D739 /* Moneta_AppApp.swift */; };
-		52307605282A86380083D739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307604282A86380083D739 /* ContentView.swift */; };
+		52273C5E2835A3490060BF12 /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52273C5D2835A3490060BF12 /* AlertButton.swift */; };
+		52307603282A86380083D739 /* MonetaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307602282A86380083D739 /* MonetaApp.swift */; };
+		52307605282A86380083D739 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307604282A86380083D739 /* SplashScreen.swift */; };
 		52307607282A86390083D739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52307606282A86390083D739 /* Assets.xcassets */; };
 		5230760A282A86390083D739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52307609282A86390083D739 /* Preview Assets.xcassets */; };
-		52307614282A86390083D739 /* Moneta_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307613282A86390083D739 /* Moneta_AppTests.swift */; };
-		5230761E282A86390083D739 /* Moneta_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230761D282A86390083D739 /* Moneta_AppUITests.swift */; };
-		52307620282A86390083D739 /* Moneta_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5230761F282A86390083D739 /* Moneta_AppUITestsLaunchTests.swift */; };
+		523838372833BC4100F82E10 /* CurrencyUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523838362833BC4100F82E10 /* CurrencyUITextField.swift */; };
+		5238383A2833BD1D00F82E10 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523838392833BD1D00F82E10 /* CurrencyTextField.swift */; };
+		52540B38282AA98500EB2423 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52540B37282AA98500EB2423 /* Expenses.swift */; };
+		52540B3A282AAC3500EB2423 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52540B39282AAC3500EB2423 /* Login.swift */; };
+		529BD5BF282E7565008A7FF7 /* ExpensesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529BD5BE282E7565008A7FF7 /* ExpensesModel.swift */; };
+		52AF5199282BD78E009FC0F3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF5198282BD78D009FC0F3 /* Launch Screen.storyboard */; };
+		52E48D602833FB5300841B50 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E48D5F2833FB5300841B50 /* Gradients.swift */; };
+		52E48D622834069700841B50 /* CurrencyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E48D612834069700841B50 /* CurrencyFormat.swift */; };
+		52ED8DD6282D4ED2009C76BD /* SetLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8DD5282D4ED2009C76BD /* SetLimits.swift */; };
+		52ED8DD8282D4EE6009C76BD /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED8DD7282D4EE6009C76BD /* AddExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +42,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52273C5D2835A3490060BF12 /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
 		523075FF282A86380083D739 /* Moneta App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moneta App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52307602282A86380083D739 /* Moneta_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneta_AppApp.swift; sourceTree = "<group>"; };
-		52307604282A86380083D739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52307602282A86380083D739 /* MonetaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonetaApp.swift; sourceTree = "<group>"; };
+		52307604282A86380083D739 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		52307606282A86390083D739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52307609282A86390083D739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5230760F282A86390083D739 /* Moneta AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneta AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52307613282A86390083D739 /* Moneta_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneta_AppTests.swift; sourceTree = "<group>"; };
 		52307619282A86390083D739 /* Moneta AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneta AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5230761D282A86390083D739 /* Moneta_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneta_AppUITests.swift; sourceTree = "<group>"; };
-		5230761F282A86390083D739 /* Moneta_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneta_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		523838362833BC4100F82E10 /* CurrencyUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUITextField.swift; sourceTree = "<group>"; };
+		523838392833BD1D00F82E10 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		52540B37282AA98500EB2423 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		52540B39282AAC3500EB2423 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		529BD5BE282E7565008A7FF7 /* ExpensesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesModel.swift; sourceTree = "<group>"; };
+		52AF5198282BD78D009FC0F3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52D7BE1B282D29D1008192F4 /* Moneta-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Moneta-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		52DA9161282D331300A0250C /* Moneta App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Moneta App.entitlements"; sourceTree = "<group>"; };
+		52E48D5F2833FB5300841B50 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		52E48D612834069700841B50 /* CurrencyFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormat.swift; sourceTree = "<group>"; };
+		52ED8DD5282D4ED2009C76BD /* SetLimits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLimits.swift; sourceTree = "<group>"; };
+		52ED8DD7282D4EE6009C76BD /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				52307601282A86380083D739 /* Moneta App */,
-				52307612282A86390083D739 /* Moneta AppTests */,
-				5230761C282A86390083D739 /* Moneta AppUITests */,
 				52307600282A86380083D739 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +110,12 @@
 		52307601282A86380083D739 /* Moneta App */ = {
 			isa = PBXGroup;
 			children = (
-				52307602282A86380083D739 /* Moneta_AppApp.swift */,
-				52307604282A86380083D739 /* ContentView.swift */,
+				52DA9161282D331300A0250C /* Moneta App.entitlements */,
+				52D7BE1B282D29D1008192F4 /* Moneta-App-Info.plist */,
+				52E48D5E2833FB1300841B50 /* Components */,
+				5230762D282A86500083D739 /* Views */,
+				5230762C282A86470083D739 /* Model */,
+				52307602282A86380083D739 /* MonetaApp.swift */,
 				52307606282A86390083D739 /* Assets.xcassets */,
 				52307608282A86390083D739 /* Preview Content */,
 			);
@@ -110,21 +130,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		52307612282A86390083D739 /* Moneta AppTests */ = {
+		5230762C282A86470083D739 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				52307613282A86390083D739 /* Moneta_AppTests.swift */,
+				523838382833BD0B00F82E10 /* Currency */,
+				529BD5BE282E7565008A7FF7 /* ExpensesModel.swift */,
+				52E48D612834069700841B50 /* CurrencyFormat.swift */,
 			);
-			path = "Moneta AppTests";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		5230761C282A86390083D739 /* Moneta AppUITests */ = {
+		5230762D282A86500083D739 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5230761D282A86390083D739 /* Moneta_AppUITests.swift */,
-				5230761F282A86390083D739 /* Moneta_AppUITestsLaunchTests.swift */,
+				52540B39282AAC3500EB2423 /* Login.swift */,
+				52ED8DD9282D630E009C76BD /* Expenses */,
+				52307604282A86380083D739 /* SplashScreen.swift */,
+				52AF5198282BD78D009FC0F3 /* Launch Screen.storyboard */,
 			);
-			path = "Moneta AppUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		523838382833BD0B00F82E10 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				523838362833BC4100F82E10 /* CurrencyUITextField.swift */,
+				523838392833BD1D00F82E10 /* CurrencyTextField.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		52E48D5E2833FB1300841B50 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				52E48D5F2833FB5300841B50 /* Gradients.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		52ED8DD9282D630E009C76BD /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				52540B37282AA98500EB2423 /* Expenses.swift */,
+				52ED8DD5282D4ED2009C76BD /* SetLimits.swift */,
+				52ED8DD7282D4EE6009C76BD /* AddExpense.swift */,
+				52273C5D2835A3490060BF12 /* AlertButton.swift */,
+			);
+			path = Expenses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AF5199282BD78E009FC0F3 /* Launch Screen.storyboard in Resources */,
 				5230760A282A86390083D739 /* Preview Assets.xcassets in Resources */,
 				52307607282A86390083D739 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52307605282A86380083D739 /* ContentView.swift in Sources */,
-				52307603282A86380083D739 /* Moneta_AppApp.swift in Sources */,
+				52E48D622834069700841B50 /* CurrencyFormat.swift in Sources */,
+				52ED8DD8282D4EE6009C76BD /* AddExpense.swift in Sources */,
+				52E48D602833FB5300841B50 /* Gradients.swift in Sources */,
+				52307605282A86380083D739 /* SplashScreen.swift in Sources */,
+				52ED8DD6282D4ED2009C76BD /* SetLimits.swift in Sources */,
+				52307603282A86380083D739 /* MonetaApp.swift in Sources */,
+				52540B38282AA98500EB2423 /* Expenses.swift in Sources */,
+				52540B3A282AAC3500EB2423 /* Login.swift in Sources */,
+				52273C5E2835A3490060BF12 /* AlertButton.swift in Sources */,
+				523838372833BC4100F82E10 /* CurrencyUITextField.swift in Sources */,
+				5238383A2833BD1D00F82E10 /* CurrencyTextField.swift in Sources */,
+				529BD5BF282E7565008A7FF7 /* ExpensesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52307614282A86390083D739 /* Moneta_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +336,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52307620282A86390083D739 /* Moneta_AppUITestsLaunchTests.swift in Sources */,
-				5230761E282A86390083D739 /* Moneta_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,15 +474,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moneta App/Moneta App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moneta App/Preview Content\"";
-				DEVELOPMENT_TEAM = VG77SH4QY4;
+				DEVELOPMENT_TEAM = DVX5N2U74F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moneta-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -430,7 +493,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robsonlopes.Moneta-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robsonlopes.MonetaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,15 +506,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Moneta App/Moneta App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moneta App/Preview Content\"";
-				DEVELOPMENT_TEAM = VG77SH4QY4;
+				DEVELOPMENT_TEAM = DVX5N2U74F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moneta-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.robsonlopes.Moneta-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robsonlopes.MonetaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
